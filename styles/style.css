@@ -11,6 +11,114 @@
     
 }
 
+ body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fbff;
+      color: #333;
+
+    }
+
+    /* Header/Navbar */
+    header {
+      width: 1140px;
+      height: 71px;
+      margin: 30px auto 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+      box-sizing: border-box;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #e45b00;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+    }
+
+    .cart {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px 150px;
+        height: 461x;
+      width:1141px ;
+    }
+
+    .text-content {
+      max-width: 50%;
+    }
+
+    .text-content h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+
+    .text-content .black {
+      color: #000;
+      font-weight: bold;
+    }
+
+    .text-content .orange {
+      color: #e45b00;
+      font-weight: bold;
+    }
+
+    .text-content p {
+      color: #666;
+      margin-top: 20px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .image-container img {
+      width: 100%;
+      max-width: 500px;
+      border: 2px dashed #ccc;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+  @media (max-width: 768px) {
+      .main {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .text-content, .image-container {
+        max-width: 100%;
+      }
+
+      header {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+      }
+    }
+
+
 
 
 
@@ -18,7 +126,7 @@
 
 
 /* join section style */
-.Join-title{
+/* .Join-title{
     
 position: absolute;
 width: 1440px;
@@ -33,16 +141,23 @@ top: 0;
     text-align: center;
     color: #FFFFFF;
     font-weight: bold;
-    padding: 50px 20px;
+     /* padding: 80px;  */
     
-}
+/* }
 .button-id{
     
     text-align: center;
+    color: #FFFFFF;
     font-family: 600;
     font-size: 16px;
-}
+    background-color: #E95A08;
+    padding: 40px; 
+  
+   */
+    
+
+/* }
 .join-main{
     display: flex;
     justify-content: center;
-}
+} */ 
