@@ -191,6 +191,54 @@ body {
 .add-btn:hover {
   background-color: #d85d10;
 }
+/* gg */
+
+.lover-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+}
+
+.lover-image {
+  flex: 1 1 400px;
+  position: relative;
+}
+
+.lover-image img {
+  /* width: 50%; */
+  width: 540px;
+  height: 597px;
+  /* height: auto; */
+  border-radius: 8px;
+}
+
+.badge {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: 20px;
+}
+
+.lover-content {
+  flex: 1 1 400px;
+  text-align: left;
+}
+
+.lover-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.lover-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #444;
+  line-height: 1.6;
+}
 /* leastes */
 h2 {
   text-align: center;
