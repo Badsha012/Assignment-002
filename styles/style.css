@@ -196,6 +196,63 @@ body {
 .add-btn:hover {
   background-color: #d85d10;
 }
+/* join */
+.join-section {
+  background-image: url(../assets/news-letter-bg.png);
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+
+.overlay {
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 700px;
+}
+
+.overlay h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Subscription Form */
+.subscribe-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0;
+}
+
+.subscribe-form input {
+  flex: 1;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 1rem;
+}
+
+.subscribe-form button {
+  padding: 12px 20px;
+  border: none;
+  background-color: #ff5e00;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #e55000;
+}
+
 
 /* footer */
 .footer {
