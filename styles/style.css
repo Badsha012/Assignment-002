@@ -123,6 +123,79 @@ body {
   height: auto;
   border-radius: 8px;
 }
+
+/* card style */
+
+/* Section Styling */
+.plants-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.plants-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.plants-section h2 span {
+  color: #f57224; /* orange */
+}
+
+.plants-section p {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  color: #555;
+}
+
+/* Grid Layout */
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+/* Plant Card */
+.plant-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.plant-card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.plant-card h3 {
+  margin: 10px 0 5px;
+  font-weight: normal;
+}
+
+.plant-card .price {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.add-btn {
+  background-color: #f57224;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.add-btn:hover {
+  background-color: #d85d10;
+}
 /* hero section */
 /* Responsive */
 @media (max-width: 768px) {
