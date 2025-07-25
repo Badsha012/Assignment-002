@@ -12,7 +12,7 @@
 .noto-serif-container {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 700px;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
@@ -390,7 +390,7 @@ body {
   height: 450px;
 }
 
-.overlay {
+.overlay-id {
   position: absolute;
   bottom: 15px;
   left: 15px;
@@ -459,10 +459,10 @@ body {
 
 .overlay {
   
-  padding: 20px;
+  padding: 40px;
   border-radius: 8px;
-  width: 90%;
-  max-width: 700px;
+   width: 90%; 
+  
 }
 
 .overlay h2 {
@@ -501,6 +501,7 @@ body {
 .subscribe-form button:hover {
   background-color: #e55000;
 }
+
 
 
 /* footer */
