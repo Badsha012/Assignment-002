@@ -209,19 +209,20 @@ body {
 }
 
 .lover-image img {
-  /* width: 50%; */
-  width: 540px;
-  height: 597px;
-  /* height: auto; */
+   width: 100%; 
+ 
+   height: auto; 
   border-radius: 8px;
 }
 
 .badge {
   position: absolute;
-  top: -30px;
-  left: -30px;
-  width: 20px;
+  top: -140px;
+  right: -140px;
+   width: none; 
+   height: none; 
 }
+
 
 .lover-content {
   flex: 1 1 400px;
@@ -271,7 +272,7 @@ h2 span {
   overflow: hidden;
   flex: 1 1 250px;
   max-width: 350px;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 4 / 3; 
 }
 
 .deal-card.large {
@@ -289,8 +290,9 @@ h2 span {
 
 .deal-text {
   position: absolute;
+  text-align: center;
   bottom: 15px;
-  left: 15px;
+  left: 15px; 
   color: #fff;
   font-weight: bold;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
@@ -320,7 +322,7 @@ h2 span {
 }
 
 .overlay {
-  /* background-color: rgba(0, 0, 0, 0.4); */
+  
   padding: 20px;
   border-radius: 8px;
   width: 90%;
@@ -438,6 +440,32 @@ h2 span {
 
 .footer-social a:hover img {
   transform: scale(1.1);
+}
+/* section */
+/* Responsive: image on top, content below */
+@media (max-width: 576px) {
+  .lover-section {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .lover-content {
+    width: 100%;
+  }
+
+   .badge {
+    top: -120px;
+    right: -120px;
+    width: 10px;
+  } 
+}
+/* card */
+@media (max-width: 576px) {
+  .plant-grid {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 
