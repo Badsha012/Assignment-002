@@ -196,6 +196,83 @@ body {
 .add-btn:hover {
   background-color: #d85d10;
 }
+
+/* footer */
+.footer {
+  background-color: #f7faff;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 30px;
+}
+
+.footer-logo-section {
+  flex: 1 1 200px;
+  min-width: 220px;
+}
+
+.footer-logo-section .logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.footer-logo-section p {
+  color: #555;
+  max-width: 300px;
+  font-size: 15px;
+}
+
+.footer-links {
+  display: flex;
+  flex: 2 1 400px;
+  gap: 40px;
+  flex-wrap: wrap;
+  min-width: 250px;
+}
+
+.footer-links .column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 120px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #555;
+  font-size: 15px;
+}
+
+.footer-links a:hover {
+  color: #000;
+}
+
+.footer-social {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  flex: 1 1 150px;
+  min-width: 150px;
+}
+
+.footer-social img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.footer-social a:hover img {
+  transform: scale(1.1);
+}
+
+
 /* hero section */
 /* Responsive */
 @media (max-width: 768px) {
